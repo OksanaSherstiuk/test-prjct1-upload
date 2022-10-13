@@ -1,0 +1,66 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(15, 14, 17, 0.5),
+      rgba(7, 6, 6, 0.8)
+    ),
+    url(https://picsum.photos/536/354);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.login {
+  border-bottom: 5px solid rgb(18, 194, 18);
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-top: 10%;
+}
+div {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+input[type="email"],
+input[type="password"] {
+  width: 400px;
+  height: 40px;
+  margin-top: 30px;
+  border: none;
+  border-bottom: 2px solid rgb(18, 194, 18);
+  background: none;
+  box-sizing: border-box;
+  color: white;
+  font-size: 2rem;
+  outline: none;
+}
+::placeholder {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+form {
+  background-color: none;
+}
+h1 {
+  color: white;
+}
+button {
+  width: 400px;
+  height: 50px;
+  background: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: 2px solid rgb(18, 194, 18);
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  color: white;
+  font-size: 2rem;
+}
